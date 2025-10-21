@@ -21,7 +21,7 @@ Include a screenshot or GIF of your player here:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YourUsername/music-player.git
+git clone https://github.com/Arthemyssia/music-player-design-1
 Open index.html in your preferred browser.
 Usage
 Click the play button to start the song.
