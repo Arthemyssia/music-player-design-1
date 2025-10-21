@@ -13,9 +13,7 @@ This project allows users to play, pause, and navigate through songs with a cust
 
 ## Demo
 
-Include a screenshot or GIF of your player here:
-
-![Music Player Screenshot](media/song.jpg)
+![Music Player Screenshot](<media/Preview.jpeg>)
 
 ## Installation
 
