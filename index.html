@@ -42,7 +42,7 @@
     let song = document.getElementById("song");
     let ctrlIcon = document.getElementById("ctrlIcon");
 
-    song.onloadmetada = function() {
+    song.onloadedmetadata = function() {
         progress.max = song.duration;
         progress.value = song.currentTime;
     }
@@ -57,6 +57,16 @@
             ctrlIcon.classList.add("fa-pause");
             ctrlIcon.classList.remove("fa-play");
         }
+    }
+    song.ontimeupdate = function() {
+    progress.value = song.currentTime;
+};
+    
+    progress.onchange = function(){
+        song.play();
+        song.currentTime = progress.value;
+        ctrlIcon.classList.add("fa-pause");
+        ctrlIcon.classList.remove("fa-play");
     }
 </script>
 
